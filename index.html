@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Your Password Generator</h2>
+
+        <div class="input-field">
+            <input type="text" id="value"> <button id="copy"> copy</button>
+        </div>  
+        <br>
+        <div class="p_length">
+        Password Length : <input type="number" name="" id="total-char" max="30" min="2" value="10" />
+        </div>
+        <p id="msg">Password Strength: <span id="Strength"></span></p>
+        <button id="generate">Generate</button>
+    </div>  
+    <script src="app.js"></script>
+    <script src="copy.js"></script>
+    <script src="strength_msg.js"></script>
+</body>
+</html>
